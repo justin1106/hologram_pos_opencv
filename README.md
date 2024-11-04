@@ -8,7 +8,9 @@
 3. 클릭이 된다.
 ## 3. 원리
 * 손의 크기와 손가락 사이의 거리의 비율 구하기
+    * Mediapipe와 Math 사용 
 * 그 후 적절한 비율과 비교하기
+    * 코드에서는 3
 * 더 가깝다면 클릭으로 인식
 ```python
 def calculating_hand_org():
