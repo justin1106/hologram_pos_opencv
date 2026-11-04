@@ -181,7 +181,7 @@ def done(c, idx):
 
     frame[button_size+gap:button_size+gap+gap*3, button_size//2:button_size//2+frame_width-button_size] = res
 
-    cv2.putText(frame, f'{c}won payed ok!', (frame_width//2-200, frame_height//2), font, 1.3, (255, 255, 255), lineType)
+    cv2.putText(frame, f'{c}won payed', (frame_width//2-200, frame_height//2), font, 1.3, (255, 255, 255), lineType)
     menus[str(idx+1)] = []
 
 
